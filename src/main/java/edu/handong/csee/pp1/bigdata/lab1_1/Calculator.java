@@ -70,6 +70,7 @@ public class Calculator {
 		print("*:" , multiply(firstIntArg, secondIntArg));
 		print("DV:" , divide(firstIntArg,secondIntArg));
 		print("%:" , mod(firstIntArg,secondIntArg));
+		print("TWICE:" , twice(firstIntArg,secondIntArg));
 	}
 
 	
@@ -111,6 +112,12 @@ public class Calculator {
 		countForAnyCompution++;
 		localCount++;
 		return first % second;
+	}
+	
+	int twice(int first, int second) {
+		countForAnyCompution++;
+		localCount++;
+		return 2*(first + second);
 	}
 
 	static int getCount() {

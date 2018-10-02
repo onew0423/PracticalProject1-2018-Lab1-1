@@ -32,6 +32,12 @@ public class CalculatorTest {
 		assertEquals(myCalc.mod(5, 3),2);
 		
 	}
+	
+	public void testTwice() {
+		Calculator myCalc = new Calculator();
+		assertEquals(myCalc.twice(5, 3),16);
+		
+	}
 
 	@Test
 	public void testMultiply() {
