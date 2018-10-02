@@ -45,3 +45,4 @@ public class CalculatorTest {
 		assertEquals(myCalc.divide(2, 1),2, 0.00000001);
 	}
 }
+

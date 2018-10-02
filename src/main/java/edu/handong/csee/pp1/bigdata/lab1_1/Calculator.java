@@ -120,4 +120,5 @@ public class Calculator {
 	int getLocalCount() {
 		return localCount;
 	}
+	
 }
